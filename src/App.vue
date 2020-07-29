@@ -18,5 +18,8 @@ export default {
 </script>
 
 <style>
-
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),   url(./fonts/Nunito/Nunito-Regular.ttf) format("truetype");
+}
 </style>

@@ -2,8 +2,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vuex from 'vuex'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 Vue.config.productionTip = false
+
+Vue.use(Vuex)
 
 let store = {
   state:{
