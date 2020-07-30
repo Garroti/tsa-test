@@ -22,4 +22,7 @@ export default {
   font-family: "Nunito";
   src: local("Nunito"),   url(./fonts/Nunito/Nunito-Regular.ttf) format("truetype");
 }
+body {
+  scroll-behavior: inherit;
+}
 </style>
